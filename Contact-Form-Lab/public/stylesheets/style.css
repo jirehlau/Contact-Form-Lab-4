@@ -1,8 +1,45 @@
+* {
+  background-color: e2e2e2;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #e2e2e2;
+  display:flex;
+  justify-content: center;
 }
 
 a {
   color: #00B7FF;
+}
+
+#form-box {
+  width: 400px;
+
+}
+
+#header-section {
+  background-color: darkgray;
+  padding: 50 50 50 50 ;
+  width: 88%;
+}
+/* 
+.form-section {
+ padding: 0 30 40 30; 
+} */
+
+input {
+  width: 85%;
+  border-radius: 10px;
+  height: 15px;
+}
+
+#message {
+  height: 200px;
+}
+
+button {
+  border-radius: 10px;
+  background-color: lightgray;
 }
