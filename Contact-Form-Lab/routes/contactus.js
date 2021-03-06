@@ -6,9 +6,7 @@ let contactCtrl = require('../controllers/contactus')
 /* GET users listing. */
 
 
-router.get('/', function(req,res){
-    res.render('forms.ejs')
-})
+router.get('/', contactCtrl.index)
 
 router.post('/submit', contactCtrl.submission)
 

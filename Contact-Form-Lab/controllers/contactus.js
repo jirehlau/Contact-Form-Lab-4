@@ -1,9 +1,13 @@
 module.exports = {
     submission,
+    index,
 }
 
 
+function index(req,res){
+    res.render('forms.ejs')
+}
+
 function submission(req,res){
-    console.log(req.body)
-    res.send("<h1>Thank you for submitting your form</h1>")
+    res.render('submissions.ejs', {data: req.body})
 }
