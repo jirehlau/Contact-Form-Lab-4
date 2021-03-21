@@ -1,13 +1,15 @@
 module.exports = {
     submission,
-    index,
+    preSubmission,
 }
 
 
-function index(req,res){
+function preSubmission(req,res){
     res.render('forms.ejs')
 }
 
 function submission(req,res){
-    res.render('submissions.ejs', {data: req.body})
+    
+    res.render('submissions.ejs', {jireh: req.body})
 }
+
