@@ -2,7 +2,7 @@
 
 <h2>Contact Form Page</h2>
 
-![Contact Form](public/images/emptyForm.png)
+![Contact Form]('public/images/emptyForm.png')
 
 
 <h2>Entering Details</h2>
