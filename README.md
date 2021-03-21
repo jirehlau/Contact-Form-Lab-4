@@ -2,17 +2,17 @@
 
 <h2>Contact Form Page</h2>
 
-![Contact Form](images/emptyForm.png)
+![Contact Form](assets/emptyForm.png)
 
 
 <h2>Entering Details</h2>
 
-![Filled Form](images/filledForm.png)
+![Filled Form](assets/filledForm.png)
 
 
 <h2>Shows up on the page to see what you have submitted</h2>
 
-![Submitted Form](images/Submitted.png)
+![Submitted Form](assets/submitted.png)
 
 
 <h2>Tech Stacks Used</h2>
